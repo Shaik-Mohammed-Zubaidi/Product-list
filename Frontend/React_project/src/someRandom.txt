@@ -1,0 +1,14 @@
+
+            <select name="brand" id="brand" value={brand} onChange={(event)=>setBrand(event.target.value)}>
+                <option value="">brand</option>
+                <option value="gucci">Gucci</option>
+                <option value="balenciaga">Balenciaga</option>
+                <option value="nike">Nike</option>
+            </select>
+
+            <select name="discount" id="discount" value={discount} onChange={(event)=>setDiscount(parseInt(event.target.value))}>
+                <option value="0">discount</option>
+                <option value="10">0-10%</option>
+                <option value="30">10-30%</option>
+                <option value="50">30-50%</option>
+            </select>

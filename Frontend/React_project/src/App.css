@@ -1,0 +1,43 @@
+.App{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Components {
+  display: flex;
+  text-align: center;
+  margin: 2vh 5vh 5vh;
+}
+
+.filters{
+  margin: 2px;
+  width: 40vh;
+  height: 80vh;
+  border: 3px solid black;
+  text-align: center;
+}
+.searchBtn{
+  display: block;
+  width: 90%;
+  margin: 3%;
+}
+
+.results{
+  margin: 2px;
+  width: 100vh;
+  height: 80vh;
+  border: 3px solid black;
+}
+.headContent{
+  margin-top: 1px;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+.closeBtn{
+  border: 1px solid grey;
+  margin: 1px;
+  width: 2%;
+  height: 2%;
+}
